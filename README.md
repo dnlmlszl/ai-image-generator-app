@@ -21,18 +21,14 @@ git clone https://github.com/your-username/ai-image-generator-app.git
 2. Navigate to the project directory:
 
 ```bash
-
-```
-
 cd ai-image-generator-app
-
-````
+```
 
 3. Install dependencies:
 
 ```bash
 yarn or npm install
-````
+```
 
 4.Set up your OpenAI API key:
 
