@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1d2023;
+
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  color: #fff;
+  font-size: 40px;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.images div {
+  background-color: #45464a;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: 3px solid #36383d;
+}
+
+.images div img {
+  width: 100%;
+}
+
+.prompt {
+  background-color: #292c31;
+  padding: 5px;
+  width: 630px;
+  border: 3px solid #36383d;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.prompt input,
+button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: #fff;
+}
+
+.prompt input {
+  background-color: #292c31;
+  width: 75%;
+}
+
+.prompt button {
+  width: 20%;
+  cursor: pointer;
+  background-color: #36383d;
+}
+
+.prompt button:hover {
+  background-color: #45464a;
+}
